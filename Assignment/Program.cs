@@ -37,16 +37,11 @@ namespace ConsoleApp1
 
         static void extractString(string str,string subStr)
         {
-
-
             int startIndex = str.IndexOf(subStr);
-
             if (startIndex >= 0)
             {
                 int lengthToRemove = subStr.Length;
                 int endIndex = startIndex + lengthToRemove;
-
-                // Create a new string by excluding the substring
                 string modifiedString = "";
 
                 for (int i = 0; i < str.Length; i++)
@@ -59,14 +54,6 @@ namespace ConsoleApp1
 
                 Console.WriteLine(modifiedString);
             }
-            
-
-          
-
-
-
-
-
         }
 
         static void Main(string[] args)
