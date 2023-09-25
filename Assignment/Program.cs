@@ -58,6 +58,7 @@ namespace ConsoleApp1
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello");
             findMaxChar("UnitedOnline");
             extractString("Learning C# is a great  fun","great");
         }
