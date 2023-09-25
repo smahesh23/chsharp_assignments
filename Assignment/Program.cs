@@ -23,7 +23,7 @@ namespace ConsoleApp1
                     maxCount = freq[index];
                 }
             }
-            Console.WriteLine("Max Occuring Character :{0}, {1} times", maxChar, maxCount);
+            Console.WriteLine("Max Occuring Character :  {0}, {1} times", maxChar, maxCount);
             Console.Write("Positions : ");
             for (int index = 0; index < str.Length; index++)
             {
